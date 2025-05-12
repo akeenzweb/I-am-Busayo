@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.stroke-text {
+    -webkit-text-stroke: 0.3px white;
+}
+
+
+
+.mont-font {
+    font-family: "Montserrat", sans-serif;
+}
+
+.letter-track {
+    letter-spacing: 5px;
+}
