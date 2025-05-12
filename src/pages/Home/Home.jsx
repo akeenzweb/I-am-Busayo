@@ -59,11 +59,11 @@ export default function Home() {
 
 
   const [activeIndex, setActiveIndex] = useState(0); // First FAQ open by default
-  const [isOpen, setIsOpen] = useState(0)
+  //const [isOpen, setIsOpen] = useState(0)
 
   const toggleFAQ = (index) => {
     setActiveIndex(index === activeIndex ? null : index);
-    setIsOpen(index === activeIndex ? null : index)
+    //setIsOpen(index === activeIndex ? null : index)
   };
 
   const settings = {
