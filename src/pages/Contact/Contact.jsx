@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Bg from '../../assets/images/bg-blur.svg'
+//import Bg from '../../assets/images/bg-blur.svg'
 
 import Email from '../../assets/icons/email-box.svg'
 import Linkedin from '../../assets/icons/linkedin.svg'

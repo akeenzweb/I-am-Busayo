@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import './Home.css'
 
 import { motion, AnimatePresence } from 'framer-motion';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import ScrollFadeIn from '../../components/ScrollFadeIn';
 
@@ -157,7 +157,7 @@ export default function Home() {
 
       {/* Section 4 */}
       <div className="h-full bg-cover bg-right md:bg-top bg-fixed border-t" style={{ backgroundImage: `url(${Bg4})` }}>
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-20 p-4 md:p-44'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-20 p-4 md:p-44 items-start'>
           <div className=" flex justify-center items-center">
             <ScrollFadeIn y={80}>
               <img src={Image4} alt="" />
@@ -179,7 +179,7 @@ export default function Home() {
                         <img src={Opened} alt="open" />
                     )}
                     
-                    {activeIndex != index && (
+                    {activeIndex !== index && (
                         <img src={Closed} alt="close" />
                     )}
                   </button>

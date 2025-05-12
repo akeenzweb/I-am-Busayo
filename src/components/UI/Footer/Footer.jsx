@@ -8,7 +8,7 @@ import Linkedin from '../../../assets/icons/linkedin.svg'
 import Instagram from '../../../assets/icons/IG.svg'
 import X from '../../../assets/icons/X.svg'
 import Facebook from '../../../assets/icons/FB.svg'
-import Tiktok from '../../../assets/icons/tiktok.svg'
+//import Tiktok from '../../../assets/icons/tiktok.svg'
 import Youtube from '../../../assets/icons/youtube.svg'
 
 export default function Footer() {
