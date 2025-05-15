@@ -4,8 +4,8 @@ import { Link} from 'react-router-dom';
 
 import ScrollFadeIn from '../../components/ScrollFadeIn';
 
-import Bg from '../../assets/images/bkgd-1.png'
-import Mobile1 from '../../assets/images/bkgd-mobile-1.png'
+import Bg from '../../assets/images/bkgd-1.webp'
+import Mobile1 from '../../assets/images/bkgd-mobile-1.webp'
 import Bg2 from '../../assets/images/BG-2Sec2.svg'
 import Bg3 from '../../assets/images/BG-2Sec3i.svg'
 import Bg4 from '../../assets/images/BG-2Sec3ii.svg'

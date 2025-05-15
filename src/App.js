@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
+import Lenis from 'lenis'
 
 import ScrollToTop from '../src/components/ScrollToTop';
 import PageWrapper from './components/PageWrapper';
@@ -31,6 +32,17 @@ function AnimatedRoutes() {
 }
 
 function App() {
+
+  useEffect(() => {
+    const lenis = new Lenis();
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+    requestAnimationFrame(raf);
+  }, []);
+
+
   return (
     <Router>
       <Header />
