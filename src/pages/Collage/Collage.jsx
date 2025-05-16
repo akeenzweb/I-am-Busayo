@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from "react";
 import ScrollFadeIn from '../../components/ScrollFadeIn';
 
 
-import Banner from '../../assets/images/collage-banner2.jpg'
+import Banner from '../../assets/images/collage-banner2.webp'
 import Bg from '../../assets/images/BG.svg'
 import Collage1 from '../../assets/images/collage-1.png'
 import Collage2 from '../../assets/images/collage-2.png'

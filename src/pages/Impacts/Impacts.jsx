@@ -4,7 +4,7 @@ import ScrollFadeIn from '../../components/ScrollFadeIn';
 
 import Bg1 from '../../assets/images/bkgd-2.png'
 
-import Book from '../../assets/images/book2.png'
+import Book from '../../assets/images/book2.webp'
 import Event1 from '../../assets/images/Event-1.jpg'
 import Event2 from '../../assets/images/Event-2.jpg'
 
