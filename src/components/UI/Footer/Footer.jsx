@@ -11,9 +11,11 @@ import Facebook from '../../../assets/icons/FB.svg'
 //import Tiktok from '../../../assets/icons/tiktok.svg'
 import Youtube from '../../../assets/icons/youtube.svg'
 
+import FTbG from '../../../assets/images/Footer-bg2.png'
+
 export default function Footer() {
   return (
-    <div className=' mt-20 mont-font'>
+    <div className='  mont-font pt-10 pb-5' style={{ backgroundImage: `url(${FTbG})` }}>
         <div className='grid grid-cols-1 md:grid-cols-6 gap-20 md:gap-60 mx-4 md:mx-44 my-20 '>
             <div className='col-span-2'>
                 <img className='' src={Logo} alt="logo" />

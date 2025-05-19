@@ -26,13 +26,13 @@ import Image4 from '../../assets/images/image-1iv.jpg'
 import ImageGreen from '../../assets/images/image-green.jpg'
 import ImageHat from '../../assets/images/image-hat.jpg'
 
-import Client1 from '../../assets/images/cl1.jpeg'
-import Client2 from '../../assets/images/cl2.jpeg'
-import Client3 from '../../assets/images/cl3.jpeg'
-import Client4 from '../../assets/images/cl4.png'
-import Client5 from '../../assets/images/cl5.jpeg'
-import Client6 from '../../assets/images/cl6.jpg'
-import Client7 from '../../assets/images/cl7.png'
+import Client1 from '../../assets/images/Client1.jpg'
+import Client2 from '../../assets/images/Client2.jpg'
+import Client3 from '../../assets/images/Client3.jpg'
+import Client4 from '../../assets/images/Client4.jpg'
+import Client5 from '../../assets/images/Client5.jpg'
+import Client6 from '../../assets/images/Client6.jpg'
+import Client7 from '../../assets/images/Client7.jpg'
 
 import Opened from '../../assets/icons/opened.svg'
 import Closed from '../../assets/icons/closed.svg'
@@ -210,7 +210,7 @@ export default function Home() {
 
 
       {/* Section 5 */}
-      <div className="p-4 border-t ">
+      <div className="p-4 border-t mb-10">
         <ScrollFadeIn y={80}>
           <h1 className='font-semibold mb-8 text-center text-3xl letter-track uppercase mt-10 md:mt-20'>Clients I've Worked With</h1>
         </ScrollFadeIn>
